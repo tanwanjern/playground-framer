@@ -1,6 +1,6 @@
 import * as React from "react"
 import { Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
+// import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
@@ -8,23 +8,16 @@ import Seo from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
-    <h1 className="text-red-500">Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <StaticImage
-      src="../images/gatsby-astronaut.png"
-      width={300}
-      quality={95}
-      formats={["auto", "webp", "avif"]}
-      alt="A Gatsby astronaut"
-      style={{ marginBottom: `1.45rem` }}
-    />
-    <p>
-      <Link to="/page-2/">Go to page 2</Link> <br />
-      <Link to="/using-typescript/">Go to "Using TypeScript"</Link> <br />
-      <Link to="/using-ssr">Go to "Using SSR"</Link> <br />
-      <Link to="/using-dsg">Go to "Using DSG"</Link>
-    </p>
+    <div className="container mx-auto">
+      <div className="py-8">
+        <h1 className="text-4xl font-bold">Framer Motion Playground: Homepage</h1>
+        <p className="text-purple-600 font-medium italic font-serif">Gatsby JS (React JS) + Framer Motion + Tailwind CSS</p>
+      </div>
+      <div className="section">
+        <h3 className="text-lg font-bold">Showcase</h3>
+        <Link to='/showcase/1-stories-google/' className="link block">Go to Showcase 1: Stories Google [IN PROGRESS]</Link>
+      </div>
+    </div>
   </Layout>
 )
 

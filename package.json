@@ -1,10 +1,11 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "playground-framer",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "A playground intended for experimentation with the Framer Motion, React and Tailwind",
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "framer-motion": "^6.2.4",
     "gatsby": "^4.5.4",
     "gatsby-plugin-gatsby-cloud": "^4.5.2",
     "gatsby-plugin-image": "^2.5.2",
