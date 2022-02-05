@@ -7,7 +7,7 @@ import Header from "./header"
 import "../styles/global.css"
 import "../styles/tailwind.css"
 
-const Layout = ({ children }) => {
+const Layout = ({ children, className }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -22,7 +22,7 @@ const Layout = ({ children }) => {
     <>
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
       <div>
-        <main>{children}</main>
+        <main className={className}>{children}</main>
         <footer></footer>
       </div>
     </>

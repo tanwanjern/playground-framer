@@ -14,6 +14,10 @@ const IndexPage = () => (
         <p className="text-purple-600 font-medium italic font-serif">Gatsby JS (React JS) + Framer Motion + Tailwind CSS</p>
       </div>
       <div className="section">
+        <h3 className="text-lg font-bold">Experiment</h3>
+        <Link to='/basic/' className="link block">Go to Basic Experiment</Link>
+      </div>
+      <div className="section">
         <h3 className="text-lg font-bold">Showcase</h3>
         <Link to='/showcase/1-stories-google/' className="link block">Go to Showcase 1: Stories Google [IN PROGRESS]</Link>
       </div>
