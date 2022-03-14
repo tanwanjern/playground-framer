@@ -8,7 +8,6 @@ import Hero from "../../components/2-central-gurney/sections/hero"
 import Location from "../../components/2-central-gurney/sections/location"
 import About from "../../components/2-central-gurney/sections/about"
 import Plan from "../../components/2-central-gurney/sections/plan"
-import Comapny from "../../components/2-central-gurney/sections/company"
 import Contact from "../../components/2-central-gurney/sections/contact"
 
 import "../../styles/2-central-gurney.css"
@@ -24,7 +23,6 @@ const IndexPage = () => (
           <About/>
           <Location/>
           <Plan/>
-          <Comapny/>
           <Contact/>
         </>
     }

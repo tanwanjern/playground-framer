@@ -57,30 +57,7 @@ const Location = () => {
     },[width, animateProgress])
 
 
-    const LocationFeatures = () => {
-        return(
-                <div className="w-full">
-                    <div className="relative z-10 w-full md:border-t border-gray-200">
-                        <div className="md:flex flex-row items-top">
-                            <div className="flex-1 py-5 px-6 lg:pt-8 lg:pb-12 md:px-10 border-b md:border-r border-gray-200">
-                                <p className="text-center md:text-left text-sm lg:text-base tracking-wide italic text-opacity-75">Families & young patrons of neighbouring lifestyle malls, Gurney Plaza & Gurney Paragon (Target Catchment)</p>
-                            </div>
-                            <div className="flex-1 py-5 px-6 lg:pt-8 lg:pb-12 md:px-10 border-b md:border-r border-gray-200">
-                                <p className="text-center md:text-left text-sm lg:text-base tracking-wide italic text-opacity-75">Immediate check-in hotel guests both local & international tourists on leisure & business trips</p>
-                            </div>
-                            <div className="flex-1 py-5 px-6 lg:pt-8 lg:pb-12 md:px-10 border-b md:border-r border-gray-200">
-                                <p className="text-center md:text-left text-sm lg:text-base tracking-wide italic text-opacity-75">Neighbouring mid to high-end residentials within 5km to 10km radius</p>
-                            </div>
-                            <div className="flex-1 py-5 px-6 lg:pt-8 lg:pb-12 md:px-10 border-b">
-                                <p className="text-center md:text-left text-sm lg:text-base tracking-wide italic text-opacity-75">Aprroximate population of 1.3 million within Penang Island comprising locals & expatriates</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            )
-        }
-
-        return(
+    return(
         <>
             <section id="location" className="reset" ref={mapContainerRef}>
                 <div className="sticky top-0 w-full h-screen overflow-hidden bg-white" ref={mapRef}>
@@ -173,7 +150,6 @@ const Location = () => {
                 </div>
                 
             </section>
-            <LocationFeatures/>
         </>
     )
 }
