@@ -19,7 +19,7 @@ const Comapny = () => {
                             <StaticImage
                                 src="../../../images/2-central-gurney/logo.png"
                                 width={160}
-                                quality={95}
+                                quality={45}
                                 formats={["auto", "webp", "avif"]}
                                 alt=""
                                 objectFit="contain"

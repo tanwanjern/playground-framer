@@ -52,7 +52,7 @@ const Showcase1 = () => {
                     <StaticImage
                         src="https://stories.google/static/img/web-stories-logo.png?cache=7e03646"
                         width={88}
-                        quality={100}
+                        quality={45}
                         formats={["auto", "webp", "avif"]}
                         alt="Icon of google stories"
                         className="mb-5"
@@ -151,7 +151,7 @@ const Showcase1 = () => {
                                                     <StaticImage
                                                         src="https://lh3.googleusercontent.com/WTVf7YDXhBKR_Mr48EPvuEjsU4zvSGsHl2yBp0S2EHv-a3LT6JqMvEdzxIqWOCV0lS0LuskC429JKYGvMWtohM36qpeeHCeWvhfv=s0"
                                                         aspectRatio={9/16}
-                                                        quality={100}
+                                                        quality={45}
                                                         formats={["auto", "webp", "avif"]}
                                                         alt="Image of google stories"
                                                         placeholder="blurred"
@@ -185,7 +185,7 @@ const Showcase1 = () => {
                                                 src="https://lh3.googleusercontent.com/-E3n3JJeXPS__QEqOHROLvz4jN-_-r7ND-O0Fil1xREJAQ68o7sq3ajoxQn1yEgtPEzuSowMBN_wTSs8vulGeZ5It4YBGtXvfz45Ng=s0"
                                                 width={100}
                                                 // aspectRatio={9/16}
-                                                quality={100}
+                                                quality={45}
                                                 formats={["auto", "webp", "avif"]}
                                                 alt="Image of google stories"
                                                 placeholder="blurred"

@@ -110,10 +110,10 @@ const Location = () => {
                                 defaultCenter={mapSettings.center}
                                 defaultZoom={mapSettings.zoom}
                                 draggable={false}
-                                options={{
-                                    disableDefaultUI: true,
-                                    mapId: process.env.GATSBY_GOOGLE_MAP_ID
-                                }}
+                                // options={{
+                                //     disableDefaultUI: true,
+                                //     mapId: process.env.GATSBY_GOOGLE_MAP_ID
+                                // }}
                                 // yesIWantToUseGoogleMapApiInternals
                             >
                             </GoogleMapReact>
@@ -156,7 +156,7 @@ const Location = () => {
                                 <StaticImage
                                     src="../../../images/2-central-gurney/logo.png"
                                     layout="fullWidth"
-                                    quality={95}
+                                    quality={45}
                                     formats={["auto", "webp", "avif"]}
                                     alt=""
                                     objectFit="contain"

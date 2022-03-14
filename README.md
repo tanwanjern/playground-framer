@@ -10,9 +10,9 @@ This repository is part of my monthly frontend challenge. In this challenge, I w
     [Live site](https://stories.google/) | [Clone 1 (Framer motion)](https://playground-framer.vercel.app/showcase/1-stories-google/) | [Clone 2 (GSAP)](https://playground-gsap.vercel.app/) | [Clone 2 (Repo)](https://github.com/tanwanjern/playground-gsap)
 
 
-- **February 2022**: A clone of Central Gurney landing page.
+- **February 2022**: A clone of Central Gurney landing page. Simple prototype only, no code has been thoroughly cleaned up.
 
-    [Staging site](https://feature-html.d2fq57gpv15ge7.amplifyapp.com/#) | [Clone](https://playground-framer.vercel.app/showcase/2-central-gurney/)
+    Live site (In progress) | [Clone](https://playground-framer.vercel.app/showcase/2-central-gurney/)
 
 
 - **March 2022**: Pending...

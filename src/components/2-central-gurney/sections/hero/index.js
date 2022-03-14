@@ -46,7 +46,7 @@ const HeroInner = () => {
     };
     const imageProps = {
         layout:"fullWidth",
-        quality:95,
+        quality:45,
         formats:["auto", "webp", "avif"],
         alt:"",
         placeholder:"none",

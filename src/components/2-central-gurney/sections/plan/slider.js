@@ -10,7 +10,7 @@ const Slider = () => {
 
     const itemProps = {
         layout:"fullWidth",
-        quality:95,
+        quality:45,
         formats:["auto", "webp", "avif"],
         alt:"",
         placeholder:"blurred",

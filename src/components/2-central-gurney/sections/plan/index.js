@@ -68,7 +68,7 @@ const Plan = () => {
                                 <StaticImage 
                                     src="../../../../images/2-central-gurney/plan/ground-floor-plan.png"
                                     layout="fullWidth"
-                                    quality={95}
+                                    quality={45}
                                     formats={["auto", "webp", "avif"]}
                                     alt=""
                                     placeholder="none"
@@ -84,7 +84,7 @@ const Plan = () => {
                                 <StaticImage 
                                     src="../../../../images/2-central-gurney/plan/first-floor-plan.png"
                                     layout="fullWidth"
-                                    quality={95}
+                                    quality={45}
                                     formats={["auto", "webp", "avif"]}
                                     alt=""
                                     placeholder="none"

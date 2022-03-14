@@ -31,7 +31,7 @@ const CollapseMenu = () => {
             <StaticImage
               src="../../images/2-central-gurney/logo.png"
               width={160}
-              quality={95}
+              quality={45}
               formats={["auto", "webp", "avif"]}
               alt=""
               objectFit="contain"
@@ -81,7 +81,7 @@ const Header = () => {
                     <StaticImage
                       src="../../images/2-central-gurney/logo.png"
                       layout="fullWidth"
-                      quality={95}
+                      quality={45}
                       formats={["auto", "webp", "avif"]}
                       alt=""
                       objectFit="contain"
