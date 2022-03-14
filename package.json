@@ -2,7 +2,7 @@
   "name": "playground-framer",
   "private": true,
   "description": "A playground intended for experimentation with the Framer Motion, React and Tailwind",
-  "version": "1.0",
+  "version": "1.0.0",
   "author": "Lester Tan",
   "dependencies": {
     "framer-motion": "^6.2.4",
