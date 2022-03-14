@@ -8,18 +8,18 @@ import useScrollPercentage from "../../../../hooks/useScrollPercentage";
 const HeroInner = () => {
 
     // useLayoutEffect(()=>{
-    //     console.log(document.documentElement.scrollHeight) // 10616
+    //     console.log(document.documentElement.scrollHeight) // 6938
     // }, [])
 
     const scrollPercentage = useScrollPercentage()
     const { scrollYProgress } = useViewportScroll()
-    const xLeft = useTransform(scrollYProgress, x => x * -10616/2.5, {ease: false})
-    const xRight = useTransform(scrollYProgress, x => x * 10616/2.5, {ease: false})
+    const xLeft = useTransform(scrollYProgress, x => x * -6938/2.5, {ease: false})
+    const xRight = useTransform(scrollYProgress, x => x * 6938/2.5, {ease: false})
     const yTop = useTransform(scrollYProgress, y => {
         // console.log(y * -3000)
-        return (y * -10616/1.2) < -420 ? -420 : y * -10616/1.2;
+        return (y * -6938/1.2) < -420 ? -420 : y * -6938/1.2;
     }, {ease: false})
-    const yBottom = useTransform(scrollYProgress, y => y * 10616/2.5, {ease: false})
+    const yBottom = useTransform(scrollYProgress, y => y * 6938/2.5, {ease: false})
 
     const [heroRef, heroInView] = useInView()
     const [subHeadlineRef] = useInView({threshold: 0.8})
@@ -87,7 +87,7 @@ const HeroInner = () => {
                             <video 
                                 className={`${scrollPercentage > 8 ? 'opacity-0':'opacity-100'} ${highlightInView ? 'h-full':'h-screen filter brightness-75'} w-full object-cover absolute top-0 left-0 transition-opacity duration-200 ease-out z-[5]`}
                                 ref={videoRef}
-                                autoplay
+                                autoPlay
                                 muted
                                 loop
                             >
