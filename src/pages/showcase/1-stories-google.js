@@ -7,11 +7,8 @@ import { StaticImage } from "gatsby-plugin-image"
 
 import { useAnimation, motion, useViewportScroll, useTransform, AnimatePresence } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import { SplitText } from "../../components/splitText"
+import { SplitText } from "../../components/1-stories-google/splitText"
 import useWindowDimensions from "../../hooks/useWindowDimensions"
-
-// TODO
-// 1. CLEAN UP CODE
 
 const Showcase1 = () => {
 
@@ -22,7 +19,7 @@ const Showcase1 = () => {
     const yPosAnim = useTransform(scrollYProgress, [0, 1], [0, 100])
 
     const phoneControls = useAnimation();
-    const [phoneRef, phoneInView] = useInView({
+    const [phoneRef] = useInView({
         root: null,
         rootMargin: "0px",
         threshold: 0.9
@@ -125,8 +122,9 @@ const Showcase1 = () => {
                         <div className="absolute top-[5%] right-0 left-0">
                             <video
                                 className="bg-white w-[95%] h-[92.5%] mx-auto object-cover rounded-3xl overflow-hidden drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)]"
-                                src="https://kstatic.googleusercontent.com/files/c44f15bb7e678d651e18fdee3058f2948aa733849e0dea3daf7429bf0f77ec23bd670dba63e71739d5b53489c98689bdbb80c47cf55f44649d9d1bfdf3e4f0a0"
-                            />
+                            >
+                                <source src="https://kstatic.googleusercontent.com/files/c44f15bb7e678d651e18fdee3058f2948aa733849e0dea3daf7429bf0f77ec23bd670dba63e71739d5b53489c98689bdbb80c47cf55f44649d9d1bfdf3e4f0a0" type="video/mp4"/>
+                            </video>
                         </div>
                     </motion.div>
                 </motion.div>

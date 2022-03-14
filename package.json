@@ -15,11 +15,13 @@
     "gatsby-plugin-sharp": "^4.5.2",
     "gatsby-source-filesystem": "^4.5.2",
     "gatsby-transformer-sharp": "^4.5.0",
+    "google-map-react": "^2.1.10",
     "prop-types": "^15.8.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-helmet": "^6.1.0",
-    "react-intersection-observer": "^8.33.1"
+    "react-intersection-observer": "^8.33.1",
+    "swiper": "^8.0.7"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.2",
