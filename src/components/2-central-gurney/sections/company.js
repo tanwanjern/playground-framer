@@ -29,11 +29,11 @@ const Comapny = () => {
                     </div>
                     <div className="flex-1 md:pl-24 xl:pl-48">
                         <p className="font-light leading-relaxed">
-                            CAG, a modern and classy retail space is managed by the landlord of G Hotel which is a leading business hotel in Penang @ Malaysia. With a successful 15-year track record of 5-Star luxury hospitality excellence, G Hotel has to date 2 hotels which are chic, stylish, moderne contemporary namely G Hotel Gurney and G Hotel Kelawai.
+                            CAG, a modern and classy retail space is managed by the landlord of Lorem Hotel which is a leading business hotel in Penang @ Malaysia. With a successful 15-year track record of 5-Star luxury hospitality excellence, Lorem Hotel has to date 2 hotels which are chic, stylish, moderne contemporary namely Lorem Hotel Gurney and Lorem Hotel Kelawai.
                             <br/><br/>
-                            Recipients of over 100 awards of both local and international accolades, G Hotel strives and knows that a great landlord-tenant relationship can make all the difference when it comes to growing your business. The professionalism and continued dedication under G Hotel have earned the trust of leading brands and a host of renowned long-term partners of over 10 years such as Miraku and The Coffee Bean & Tea Leaf Malaysia.
+                            Recipients of over 100 awards of both local and international accolades, Lorem Hotel strives and knows that a great landlord-tenant relationship can make all the difference when it comes to growing your business. The professionalism and continued dedication under Lorem Hotel have earned the trust of leading brands and a host of renowned long-term partners of over 10 years such as Miraku and The Coffee Bean & Tea Leaf Malaysia.
                             <br/><br/>
-                            As CAG embarks on this new journey, G Hotel too will be transforming into a brand-new hotel bringing the lobby and reception up to the 3rd floor, marking new exciting features that are bound to dazzle and delight.
+                            As CAG embarks on this new journey, Lorem Hotel too will be transforming into a brand-new hotel bringing the lobby and reception up to the 3rd floor, marking new exciting features that are bound to dazzle and delight.
                         </p>
                     </div>
                 </div>

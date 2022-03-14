@@ -152,15 +152,17 @@ const Location = () => {
                     </div>
                     <div className={`top-[52%] left-[52%] md:top-[51.5%] md:left-[51%] ${mapInView && animateProgress > 30 ? 'visible opacity-100 transition-legend':'invisible opacity-0'} fixed z-40 bg-white px-4 py-2 inline-block rounded-full shadow-lg hover:scale-110`}>
                         <a className="w-20 h-12 flex mx-auto bg-white" href="https://goo.gl/maps/FrvL9BXFMMQgPiDa6" target="_blank" rel="noreferrer">
-                            <StaticImage
-                                src="../../../images/2-central-gurney/logo.png"
-                                width={160}
-                                quality={95}
-                                formats={["auto", "webp", "avif"]}
-                                alt=""
-                                objectFit="contain"
-                                placeholder="tracedSVG"
-                            />
+                            <div className="w-10/12 m-auto">
+                                <StaticImage
+                                    src="../../../images/2-central-gurney/logo.png"
+                                    layout="fullWidth"
+                                    quality={95}
+                                    formats={["auto", "webp", "avif"]}
+                                    alt=""
+                                    objectFit="contain"
+                                    placeholder="none"
+                                />
+                            </div>
                         </a>
                     </div>
                     

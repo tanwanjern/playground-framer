@@ -19,7 +19,7 @@ const Contact = () => {
                 </div>
                 
                 <div className="py-10 text-center">
-                    <p className="text-white font-light text-sm mb-1">Copyright © 2022 G Hotel. All rights reserved.</p>
+                    <p className="text-white font-light text-sm mb-1">Warning: A clone, not an original, and its code is messy and hasn't been cleaned up.</p>
                     <p className="text-white text-opacity-50 font-light text-sm">All pictures shown are illustration purposes only.</p>
                 </div>
             </div>

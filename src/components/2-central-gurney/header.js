@@ -76,16 +76,18 @@ const Header = () => {
             
             <li className="flex-1 flex justify-center items-center">
               <Link to="#">
-                <div className={`w-40 h-24 px-3 flex mx-auto bg-white`}>
-                  <StaticImage
-                    src="../../images/2-central-gurney/logo.png"
-                    width={160}
-                    quality={95}
-                    formats={["auto", "webp", "avif"]}
-                    alt=""
-                    objectFit="contain"
-                    placeholder="tracedSVG"
-                  />
+                <div className="p-3 m-auto">
+                  <div className="w-36 bg-white">
+                    <StaticImage
+                      src="../../images/2-central-gurney/logo.png"
+                      layout="fullWidth"
+                      quality={95}
+                      formats={["auto", "webp", "avif"]}
+                      alt=""
+                      objectFit="contain"
+                      placeholder="none"
+                    />
+                  </div>
                 </div>
               </Link>
             </li>
