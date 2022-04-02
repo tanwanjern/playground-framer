@@ -3,7 +3,7 @@
 A playground intended for experimentation with Framer Motion, React and Tailwind
 
 ## Origin
-This repository is part of my monthly frontend challenge. In this challenge, I will clone an advanced animation landing page, in order to practice and improve my frontend animation skills.
+This repository is part of my monthly frontend challenge.
 
 - **January 2022**: A partial clone of a Google Stories landing page, created with Framer Motion and GSAP.
 
@@ -12,7 +12,9 @@ This repository is part of my monthly frontend challenge. In this challenge, I w
 
 - **February 2022**: A clone of Central Gurney landing page. Simple prototype only, no code has been thoroughly cleaned up.
 
-    Live site (In progress) | [Clone](https://playground-framer.vercel.app/showcase/2-central-gurney/)
+    [Live site](https://centralgurney.com.my/) | [Clone](https://playground-framer.vercel.app/showcase/2-central-gurney/)
 
 
-- **March 2022**: Pending...
+- **March 2022**: A clone of CloudTheatre Introduction Video, created with Remotion.
+
+    [Live Video](https://www.youtube.com/watch?v=y8odU6lzlec) | [Video Clone (Repo)](https://github.com/tanwanjern/playground-remotion-clt)
